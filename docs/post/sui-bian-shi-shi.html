@@ -10,13 +10,15 @@
         let theme = localStorage.getItem("meek_theme") || "light";
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
-<meta name="description" content="挺好玩的。">
-<meta property="og:title" content="111博客测试">
-<meta property="og:description" content="挺好玩的。">
+<meta name="description" content="随便试试
+[1](https://github.com/kongzhongtitian)。">
+<meta property="og:title" content="随便试试">
+<meta property="og:description" content="随便试试
+[1](https://github.com/kongzhongtitian)。">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://HotBloodLe.github.io/le_blog/post/111-bo-ke-ce-shi.html">
+<meta property="og:url" content="https://HotBloodLe.github.io/le_blog/post/sui-bian-shi-shi.html">
 <meta property="og:image" content="https://github.githubassets.com/favicons/favicon.svg">
-<title>111博客测试</title>
+<title>随便试试</title>
 
 
 
@@ -49,7 +51,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 
 <body>
     <div id="header">
-<h1 class="postTitle">111博客测试</h1>
+<h1 class="postTitle">随便试试</h1>
 <div class="title-right">
     <a href="https://HotBloodLe.github.io/le_blog" id="buttonHome" class="btn btn-invisible circle" title="首页">
         <svg class="octicon" width="16" height="16">
@@ -57,7 +59,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
         </svg>
     </a>
     
-    <a href="https://github.com/HotBloodLe/le_blog/issues/2" target="_blank" class="btn btn-invisible circle" title="Issue">
+    <a href="https://github.com/HotBloodLe/le_blog/issues/3" target="_blank" class="btn btn-invisible circle" title="Issue">
         <svg class="octicon" width="16" height="16">
             <path id="pathIssue" fill-rule="evenodd"></path>
         </svg>
@@ -73,10 +75,8 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
 </div>
     <div id="content">
-<div class="markdown-body" id="postBody"><p>挺好玩的。</p>
-<p>所以我还没有调试好。</p>
-<p>真的有点缠人啊这个东西。</p>
-<p>博客<strong>必须要有标签</strong>，否则出错。。。</p></div>
+<div class="markdown-body" id="postBody"><p>随便试试<br>
+<a href="https://github.com/kongzhongtitian">1</a></p></div>
 <div style="font-size:small;margin-top:8px;float:right;">转载请注明出处</div>
 
 <button class="btn btn-block" type="button" onclick="openComments()" id="cmButton">评论</button>
@@ -135,11 +135,7 @@ console.log("\n %c Gmeek last https://github.com/Meekdai/Gmeek \n","padding:5px 
 <script>
 document.getElementById("pathHome").setAttribute("d",IconList["home"]);
 document.getElementById("pathIssue").setAttribute("d",IconList["github"]);
-cmButton=document.getElementById("cmButton");
-    span=document.createElement("span");
-    span.setAttribute("class","Counter");
-    span.innerHTML="1";
-    cmButton.appendChild(span);
+
 
 
 function openComments(){
