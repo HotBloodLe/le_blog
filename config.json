@@ -1,6 +1,9 @@
 {
-    "title":"Blog Title",
-    "subTitle":"Blog description",
+    "title":"乐博客",
+    "subTitle":"做最炫酷的自己",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
-    "GMEEK_VERSION":"last"
+    "GMEEK_VERSION":"last",
+    "homeurl":"https://hotbloodle.github.io",
+    "startSite":"11/8/2026",
+    "needComment":1
 }
